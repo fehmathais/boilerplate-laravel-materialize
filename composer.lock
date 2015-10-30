@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a4bb100237a70972059476e302b39cd",
-    "content-hash": "6506bc2b64b4b1ff4a5b1dd8789ee557",
+    "hash": "dd3340980ffed82a1e804b27c3d09c65",
+    "content-hash": "393fa1214ffe91d3f090c24b4c22bac8",
     "packages": [
         {
             "name": "bestmomo/scafold",
@@ -48,6 +48,43 @@
             "description": "To add scafold to Laravel 5.1",
             "homepage": "http://github.com/bestmomo/scafold",
             "time": "2015-09-30 17:35:12"
+        },
+        {
+            "name": "caouecs/laravel4-lang",
+            "version": "2.0.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/caouecs/Laravel-lang.git",
+                "reference": "fcba8bacbf19d6bc164cd3a2254fb5e7c8718675"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/fcba8bacbf19d6bc164cd3a2254fb5e7c8718675",
+                "reference": "fcba8bacbf19d6bc164cd3a2254fb5e7c8718675",
+                "shasum": ""
+            },
+            "suggest": {
+                "overtrue/laravel-lang": "Command to add languages in your project"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "caouecs",
+                    "email": "caouecs@caouecs.net"
+                }
+            ],
+            "description": "Languages for Laravel",
+            "keywords": [
+                "lang",
+                "languages",
+                "laravel",
+                "lpm"
+            ],
+            "time": "2015-10-20 20:12:25"
         },
         {
             "name": "classpreloader/classpreloader",
