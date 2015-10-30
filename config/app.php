@@ -145,6 +145,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        /*
+         * Auth Service Provider
+         */
+        Bestmomo\Scafold\ScafoldServiceProvider::class,
     ],
 
     /*
